@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "electron": "^7.1.8"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^4.3.1"
   }
 }
