@@ -1,0 +1,9 @@
+{
+  "name": "neotransmit",
+  "version": "0.1.0",
+  "description": "Browser and transfer files to and from local and remote machines",
+  "main": "main.js",
+  "repository": "https://github.com/abhishek-mane/neotransmit.git",
+  "author": "Abhishek Mane <abhishekmane@outlook.in>",
+  "license": "GNU GPL v3.0"
+}
