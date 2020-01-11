@@ -13,6 +13,7 @@
     "electron": "^7.1.8"
   },
   "dependencies": {
+    "module-alias": "^2.2.2",
     "ssh2-sftp-client": "^4.3.1"
   }
 }
