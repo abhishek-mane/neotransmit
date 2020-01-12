@@ -7,11 +7,14 @@
   "author": "Abhishek Mane <abhishekmane@outlook.in>",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "start": "node ."
+    "start": "electron .",
+    "package": "node_modules/.bin/electron-packager --overwrite ."
   },
   "devDependencies": {
     "concurrently": "^5.0.2",
     "electron": "^7.1.8",
+    "electron-packager": "^14.1.1",
+    "eslint": "^6.8.0",
     "wait-on": "^3.3.0"
   },
   "dependencies": {
