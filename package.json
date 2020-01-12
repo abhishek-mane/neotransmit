@@ -7,13 +7,16 @@
   "author": "Abhishek Mane <abhishekmane@outlook.in>",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "start": "electron ."
+    "start": "node ."
   },
   "devDependencies": {
-    "electron": "^7.1.8"
+    "concurrently": "^5.0.2",
+    "electron": "^7.1.8",
+    "wait-on": "^3.3.0"
   },
   "dependencies": {
     "module-alias": "^2.2.2",
-    "ssh2-sftp-client": "^4.3.1"
+    "ssh2-sftp-client": "^4.3.1",
+    "uuid": "^3.3.3"
   }
 }
